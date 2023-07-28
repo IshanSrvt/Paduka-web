@@ -441,7 +441,7 @@ font-size: 21px;
 
 .titlepage h2 {
      font-size: 50px;
-     color: #3e3e3e;
+     color: #ffffff;
      line-height: 50px;
      font-weight: bold;
      padding: 0;
@@ -671,9 +671,10 @@ font-size: 21px;
 /** two_box section section **/
 
 .two_box {
-     background: #2bcc91;
+     background: #212121;
      margin-top: 90px;
      padding: 0 40px;
+     color: white;
 }
 
 .two_box figure {
@@ -779,7 +780,7 @@ font-size: 21px;
 /** footer **/
 
 .multi {
-     color: #2bcc91;
+     color: #cc2b2b;
      font-weight: bold;
      font-size: 40px;
 }
@@ -787,7 +788,7 @@ font-size: 21px;
 .footer {
      border-top: #000 solid 1px;
      font-family: Poppins;
-     background: #fff;
+     background: #212020;
      padding-top: 50px;
 }
 
@@ -796,14 +797,14 @@ font-size: 21px;
 }
 
 .cont h3 {
-     color: #0c0c0e;
+     color: #ffffff;
      font-size: 37px;
      line-height: 55px;
      font-weight: bold;
 }
 
 .cont_call h3 {
-     color: #0c0c0e;
+     color: #ffffff;
      font-size: 50px;
      line-height: 60px;
      font-weight: bold;
@@ -827,9 +828,22 @@ font-size: 21px;
 }
 
 .copyright a:hover {
-     color: #2bcc91;
+     color: #cc2b2b;
 }
 
 
 /** end footer **/
 
+li {
+     list-style-type: none;
+     position: relative;
+     padding-left: 15px;
+   }
+   
+   li:before {
+     content: "\25BA \0020";
+     font-size: 6px;
+     position: absolute;
+     top: 5px;
+     left: -10px;
+   }
